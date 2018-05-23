@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Day-29</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/fontawesome-all.css">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark ptb-0">
+            <div class="container">
+                <a href="" class="navbar-brand">
+                    <img src="images/foundry.png" alt="" class="navbar-image" />
+                </a>
+
+                <button type="button" class="navbar-toggler" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse">
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#loginModal" data-toggle="modal" class="nav-link"><i class="fa fa-sign-in-alt"></i> Login</a></li>
+                        <li class=""><a href="#signupModal" data-toggle="modal" class="nav-link"><i class="fa fa-user"></i> Sing Up</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="slider" class="carousel slide" data-ride="carousel" data-interval="1800">
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" alt="" class="img-responsive" />
+                    <div class="carousel-caption">
+                        <h3>This is slider one caption heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet cupiditate delectus, deserunt ea eius harum iusto labore laborum maxime minus, neque nulla omnis optio quis sapiente tempora, tenetur voluptate.</p>
+                        <button type="button" class="btn btn-success">Read More...</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/2.jpg" alt="" class="img-responsive" />
+                    <div class="carousel-caption">
+                        <h3>This is slider one caption heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet cupiditate delectus, deserunt ea eius harum iusto labore laborum maxime minus, neque nulla omnis optio quis sapiente tempora, tenetur voluptate.</p>
+                        <button type="button" class="btn btn-success">Read More...</button>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/3.jpg" alt="" class="img-responsive" />
+                    <div class="carousel-caption">
+                        <h3>This is slider one caption heading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet cupiditate delectus, deserunt ea eius harum iusto labore laborum maxime minus, neque nulla omnis optio quis sapiente tempora, tenetur voluptate.</p>
+                        <button type="button" class="btn btn-success">Read More...</button>
+                    </div>
+                </div>
+
+
+                <!---indicator command--->
+
+                <!--<a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">-->
+                    <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+                    <!--<span class="sr-only">Previous</span>-->
+                <!--</a>-->
+                <!--<a class="carousel-control-next" href="#slider" role="button" data-slide="next">-->
+                    <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+                    <!--<span class="sr-only">Next</span>-->
+                <!--</a>-->
+
+                <!---indicator command--->
+
+
+            </div>
+
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+        <br>
+
+        <section class="section-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-success text-center mb-5">Popular Product</h3>
+                       <div class="card-group">
+                           <div class="card">
+                               <img src="img/1.jpg" alt="" class="card-img-top" />
+                               <div class="card-body">
+                                   <h3>Product Name</h3>
+                                   <p>Some content goes here about product.</p>
+                                   <a href="" class="btn btn-success text-right">Quick View</a>
+                                   <a href="" class="btn btn-success float-right">Details</a>
+                               </div>
+                           </div>
+
+                           <div class="card">
+                               <img src="img/2.jpg" alt="" class="card-img-top" />
+                               <div class="card-body">
+                                   <h3>Product Name</h3>
+                                   <p>Some content goes here about product.</p>
+                                   <a href="" class="btn btn-success text-right">Quick View</a>
+                                   <a href="" class="btn btn-success float-right">Details</a>
+                               </div>
+                           </div>
+
+                           <div class="card">
+                               <img src="img/3.jpg" alt="" class="card-img-top" />
+                               <div class="card-body">
+                                   <h3>Product Name</h3>
+                                   <p>Some content goes here about product.</p>
+                                   <a href="" class="btn btn-success text-right">Quick View</a>
+                                   <a href="" class="btn btn-success float-right">Details</a>
+                               </div>
+                           </div>
+
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <section class="section-three">
+            <div class="carousel slide" data-ride="carousel" data-interval="1600">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <!-- para-1 class can be declared in above div and if u apply the result will be same -->
+                        <p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut consequatur cumque cupiditate debitis ea facilis fugit iusto libero, mollitia natus, obcaecati placeat repudiandae rerum sint tempore veniam voluptas voluptates?</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut consequatur cumque cupiditate debitis ea facilis fugit iusto libero, mollitia natus, obcaecati placeat repudiandae rerum sint tempore veniam voluptas voluptates?</p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut consequatur cumque cupiditate debitis ea facilis fugit iusto libero, mollitia natus, obcaecati placeat repudiandae rerum sint tempore veniam voluptas voluptates?</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <section class="section-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-success text-center mb-5">Recent Product</h3>
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="img/1.jpg" alt="" class="card-img-top" />
+                                <div class="card-body">
+                                    <h3>Product Name</h3>
+                                    <p>Some content goes here about product.</p>
+                                    <a href="" class="btn btn-success text-right">Quick View</a>
+                                    <a href="" class="btn btn-success float-right">Details</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="img/2.jpg" alt="" class="card-img-top" />
+                                <div class="card-body">
+                                    <h3>Product Name</h3>
+                                    <p>Some content goes here about product.</p>
+                                    <a href="" class="btn btn-success text-right">Quick View</a>
+                                    <a href="" class="btn btn-success float-right">Details</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="img/3.jpg" alt="" class="card-img-top" />
+                                <div class="card-body">
+                                    <h3>Product Name</h3>
+                                    <p>Some content goes here about product.</p>
+                                    <a href="" class="btn btn-success text-right">Quick View</a>
+                                    <a href="" class="btn btn-success float-right">Details</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+
+        <section class="section-two">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="text-success text-center mb-5">Recent Product</h3>
+                        <div class="card-group">
+                            <div class="card">
+                                <img src="img/1.jpg" alt="" class="card-img-top" />
+                                <div class="card-body">
+                                    <h3>Product Name</h3>
+                                    <p>Some content goes here about product.</p>
+                                    <a href="" class="btn btn-success text-right">Quick View</a>
+                                    <a href="" class="btn btn-success float-right">Details</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="img/2.jpg" alt="" class="card-img-top" />
+                                <div class="card-body">
+                                    <h3>Product Name</h3>
+                                    <p>Some content goes here about product.</p>
+                                    <a href="" class="btn btn-success text-right">Quick View</a>
+                                    <a href="" class="btn btn-success float-right">Details</a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="img/3.jpg" alt="" class="card-img-top" />
+                                <div class="card-body">
+                                    <h3>Product Name</h3>
+                                    <p>Some content goes here about product.</p>
+                                    <a href="" class="btn btn-success text-right">Quick View</a>
+                                    <a href="" class="btn btn-success float-right">Details</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+                <!--<div class="co-md-12">-->
+
+                    <!--<br>-->
+
+                    <!--<div class="input-group">-->
+                        <!--<input type="search" class="form-control">-->
+                        <!--<div class="input-group-prepend">-->
+                            <!--<div class="input-group-text">-->
+                                <!--<i class="fa fa-5x fa-search"></i>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+        <div class="modal fade" data-toggle="modal" id="loginModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            X
+                        </button>
+                        <div class="modal-body">
+                            <h3 class="text-center text-success">Login Form Here</h3>
+                            <hr/>
+                            <div class="card">
+                                <div class="card-body">
+                                    <form action="" method="post">
+                                        <div class="form-group row">
+                                            <label for="" class="col-md-3 col-form-label">Email</label>
+                                            <div class="col-md-9">
+                                                <input type="email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="" class="col-md-3 col-form-label">Password</label>
+                                            <div class="col-md-9">
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <input type="button" class="btn btn-success btn-block" value="Login" />
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" data-toggle="modal" id="signupModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            X
+                        </button>
+                        <div class="modal-body">
+                            <h3 class="text-center text-success">Sign Up Form Here</h3>
+                            <hr/>
+                            <div class="card">
+                                <div class="card-body">
+                                    <form action="" method="post">
+                                        <div class="form-group row">
+                                            <label for="" class="col-md-3 col-form-label">Email</label>
+                                            <div class="col-md-9">
+                                                <input type="email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="" class="col-md-3 col-form-label">Password</label>
+                                            <div class="col-md-9">
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <input type="button" class="btn btn-success btn-block" value="Login" />
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+    </body>
+
+</html>

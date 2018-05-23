@@ -1,0 +1,91 @@
+.para-1{
+   padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.section-three{
+
+    background-image: url("../images/open-workspace-2.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover; ditio classe amara deksilam logo section a suto image dile ta nije theke div er soman width autmatic adjust hotona. thokon jodi amra image take boro korte chai thokon ai command deya lagbe*/
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+.navbar-image{
+    height: 50px;
+    width: 80px;
+}
+
+.ptb-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.img-responsive{
+    height: 100%;
+    width: 100%;
+}
+
+.section-one{
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-two{
+    background-color: #155247;
+}
+
+
+
+*{ box-sizing: border-box}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-']{
+    float: left;
+    /*border: 1px solid gray;*/
+}
+
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.wrapper{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.header-height{ height: 200px;}
+.menu-height{ height: 50px;}
+.content-height{ height: 600px;}
+.footer-height{ height: 50px;}
+
+
+.image-responsive{
+    height: 100%;
+    width: 100%;
+}
